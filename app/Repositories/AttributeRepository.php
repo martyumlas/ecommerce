@@ -42,7 +42,7 @@ class AttributeRepository extends BaseRepository implements AttributeContract
             return $this->findOneOrFail($id);
 
         } catch (ModelNotFoundException $e) {
-
+            
             throw new ModelNotFoundException($e);
         }
 
