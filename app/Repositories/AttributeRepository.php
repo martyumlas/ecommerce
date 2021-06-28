@@ -2,7 +2,7 @@
 
 namespace App\Repositories;
 
-use App\Models\Models\Attribute;
+use App\Models\Attribute;
 use App\Contracts\AttributeContract;
 use Illuminate\Database\QueryException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;

@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Contracts\AttributeContract;
 use App\Http\Controllers\Controller;
-use App\Models\Models\AttributeValue;
+use App\Models\AttributeValue;
 
 class AttributeValueController extends Controller
 {
